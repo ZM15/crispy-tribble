@@ -1,0 +1,32 @@
+https://acmp.ru/index.asp?main=task&id_task=754
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        int m1 = scanner.nextInt();
+        int m2 = scanner.nextInt();
+        int m3 = scanner.nextInt();
+        if (m1 >= 94 & m1 <= 727){
+            if (m2 >= 94 & m2 <= 727){
+                if (m3 >= 94 & m3 <= 727){
+                      int m = Math.max(m1, m2);
+                      System.out.println(Math.max(m, m3)); 	
+            
+       			 }
+       			 else {
+           			 System.out.println("Error");
+       			 }                                        
+            
+       		 }
+        	else {
+           		 System.out.println("Error");
+        	}
+            
+        }
+        else {
+            System.out.println("Error");
+        }
+        
+    }
+}
