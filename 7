@@ -1,0 +1,19 @@
+https://acmp.ru/index.asp?main=task&id_task=933
+
+import java.util.Scanner;
+public class Main{
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+        int c = scanner.nextInt();
+        int t = scanner.nextInt();
+        if (a > t){
+            System.out.println(t * b);
+        }
+        else{
+            
+            System.out.println(((t-a)*c) + (a*b));
+        }
+    }
+}
